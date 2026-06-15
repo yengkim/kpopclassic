@@ -3,6 +3,21 @@ body {
   margin: 0;
   overflow-x: scroll;
   overflow-y: hidden;
+
+  /* 배경 이미지 */
+  background-image: url("cdcase.png");
+
+  /* 화면 꽉 채우기 */
+  background-size: cover;
+
+  /* 가운데 정렬 */
+  background-position: center;
+
+  /* 반복 금지 */
+  background-repeat: no-repeat;
+
+  /* 배경 고정 */
+  background-attachment: fixed;
 }
 
 /* 가로 스크롤 영역 */
